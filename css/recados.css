@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Playfair+Display:ital@1&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.textfield > label {
+  color: #ffffff;
+}
+
+
+h1 {
+  padding-bottom: 6px;
+  color: #f6ebf0;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 400;
+  font-size: 5vw;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to left, #d692c4,#f38fe3);
+  background-size: 500% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.box_notas {
+  margin-top: 25px;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 50px;
+  background: #ea55af;
+  border-radius: 20px;
+  box-shadow: 10px 40px 80px #151012a1;    
+}  
+
+
+
+#botaoAtualizarRecados {
+  display: none;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px -1px #410431cd;
+}
+  
+
+.textfield > input {
+  width: 100%;
+  margin-top: 9px;
+  margin-bottom: 15px;
+  box-shadow: 0px 10px 10px -1px #410431cd;
+  border: none;
+  border-radius: 10px;
+  padding: 25px;
+  background: #f99cf0;
+  color: #ffffffde;
+  font-size: 12pt;
+  outline: none;
+  box-sizing: border-box;   
+}
+
+
+.textfield > label {
+  color: #f0ffffde;
+  margin-bottom: 10px;
+}
+
+
+.textfield > input::placeholder {
+  color:  #f0ffffde;
+}
+
+
+table, th, td {  
+  position: absolute 200px; 
+  border: 1px solid #ffffff; 
+  border-collapse: collapse; 
+}  
+  
+
+th, td {  
+  padding: 10px; 
+  width: 200px;
+  text-align: center;
+  color: #ffffff;
+}  
+  
+
+table th {  
+  color: white;  
+  background-color:  #f99cf0;  
+}  
+ 
+  
+img{
+  margin: 0 15px 0 10px;
+  cursor: pointer; 
+}
+  
+
+#sair {
+  all: unset;
+  background-color: #fd2989;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  width: 15%;
+  margin: 20px 0px 0px 10px;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2vw;
+  box-shadow: 0px 10px 10px -1px #410431cd;
+}
+
+
+input[type=submit]{
+  all: unset;
+  background-color: #fd2989;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  width: 15%;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2vw;
+  box-shadow: 0px 10px 11px -1px #410431cd;
+}
+  
+
+div#msg-erro{
+  color: #f99cf0;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2vw;
+}
